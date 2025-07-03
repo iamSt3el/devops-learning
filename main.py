@@ -6,7 +6,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-        <h1> hello </h1>
+        <h1> V2  </h1>
+        <h2> Changed with Github actions </h2>
     '''
 
 if __name__ == '__main__':
